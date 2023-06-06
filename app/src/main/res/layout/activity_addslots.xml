@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addslots">
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="164dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="51dp"
+        android:text="@string/location"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editloc"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView34"
+        android:layout_marginEnd="11dp"
+        android:ems="10"
+        android:hint="@string/location"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="160dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="141dp"
+        android:text="@string/region"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editreg"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editloc"
+        android:layout_alignTop="@+id/textView35"
+        android:ems="10"
+        android:hint="@string/region"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="160dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="222dp"
+        android:text="@string/PARKING_ID"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editpid"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editloc"
+        android:layout_alignTop="@+id/textView36"
+        android:ems="10"
+        android:hint="@string/PARKING_ID"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="159dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="161dp"
+        android:layout_marginStart="0dp"
+        android:text="@string/slot_status"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtslot"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editloc"
+        android:layout_alignTop="@+id/textView37"
+        android:ems="10"
+        android:hint="@string/slot_status"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/slotbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:text="@string/add_slot" />
+
+</RelativeLayout>

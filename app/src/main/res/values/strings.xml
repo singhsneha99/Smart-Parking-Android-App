@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">SMARTPARKING</string>
+    <string name="login">LOGIN</string>
+    <string name="welcome">WELCOME</string>
+    <string name="admin_login">ADMIN LOGIN</string>
+    <string name="user_name">USER NAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="user_login">USER LOGIN</string>
+    <string name="new_user">NEW USER ???</string>
+    <string name="personal_details">personal details</string>
+    <string name="phone_no">PHONE NO</string>
+    <string name="email_id">EMAIL ID</string>
+    <string name="submit">SUBMIT</string>
+    <string name="new_booking">NEW BOOKING</string>
+    <string name="view_booking">VIEW BOOKING</string>
+    <string name="feedback">FEEDBACK</string>
+    <string name="logout">LOGOUT</string>
+    <string name="booking_details">BOOKING DETAILS</string>
+    <string name="date">DATE</string>
+    <string name="time">TIME</string>
+    <string name="location">LOCATION</string>
+    <string name="_00_00">00:00</string>
+    <string name="region">REGION</string>
+    <string name="no_of_slots">NO. OF SLOTS</string>
+    <string name="car_details">CAR DETAILS</string>
+    <string name="driver_name">DRIVER NAME</string>
+    <string name="dname">name</string>
+    <string name="vehicle_no">VEHICLE NO.</string>
+    <string name="vehicleno">XX-XX XX XXXX</string>
+    <string name="cancel_booking">CANCEL BOOKING</string>
+    <string name="booking_id">BOOKING ID</string>
+    <string name="bid">xxxx</string>
+    <string name="view_users">VIEW USERS</string>
+    <string name="view_feedback">VIEW FEEDBACK</string>
+    <string name="check_out_users">CHECK OUT USERS</string>
+    <string name="feedbackviews">feedbackviews</string>
+    <string name="check_out_time">CHECK OUT TIME</string>
+    <string name="check_out">CHECK OUT</string>
+    <string name="fare">FARE</string>
+    <string name="total_time">TOTAL TIME</string>
+    <string name="total_fare">TOTAL FARE</string>
+    <string name="done">DONE</string>
+    <string name="user_id">USER ID</string>
+    <string name="tid">USER ID</string>
+    <string name="Book_ID">BOOKING ID</string>
+    <string name="PARKING_ID">PARKING ID</string>
+    <string name="addtime">ADD TIME</string>
+    <string name="adddate">ADD DATE</string>
+    <string name="inslot">IN SLOT</string>
+    <string name="add_slot">ADD SLOT</string>
+    <string name="slot_status">SLOT STATUS</string>
+    <string name="out_time">ADD TIME</string>
+    <string name="pay_fare">PAY FARE</string>
+
+
+</resources>
